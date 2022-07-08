@@ -1,0 +1,97 @@
+/* == Custom Common Class == */
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+hr{
+  border: 1px solid black;
+}
+
+/* == Header Section == */
+#nav button:focus {
+  outline: none;
+  box-shadow: none;
+} 
+
+/* == Section three ==*/
+.three .card{
+  min-height: 100%;
+}
+
+/* === Section Six === */
+.Section-Six .card:hover img{
+  transform: scale(1.2); 
+  transition: .3s ease-in-out;
+}
+
+/* == Section Seven == */
+#Section-Seven a:hover{
+    color: white !important; 
+}
+
+#Section-Seven input[type="text"]{
+  width: 100%;
+  padding: 12px 13px;
+  border-radius: 8px;
+}
+
+#Section-Seven input[type="text"]:focus{
+  outline: none;
+}
+
+#Section-Seven .inbuild{
+  position: absolute;
+  right: 21px;
+  margin-top:7px;   
+}
+
+#Section-Seven .dark{
+  background-color: black !important;
+}
+
+/* ========  Contact ==========*/
+
+/* Section two */
+.contact-2 textarea:focus{
+ outline: auto;
+ box-shadow: none;
+}
+.contact-2 textarea{
+  border: 2px solid black;
+}
+
+
+/* == @ Media Query == */
+/* == Median query for 300px to 355px */
+@media (min-width: 300px) and (max-width: 355px){ 
+  .section-first a > button{
+  margin-bottom: 10px;
+}
+}
+
+/* == Media query in index page for  320px === */
+@media  (max-width: 320px){
+  #Section-Seven .btn{
+    padding: 13px 30px;
+    position: static;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .section-first .btn{
+   margin-bottom: 10px;
+  }
+}
+
+/* === Media query in About page 992px to 1199px === */
+@media (min-width:992px) and (max-width:1199px){
+  .about-2 .space{
+    margin:-28px;
+  }
+}
+
+
+
+
+
+
+
